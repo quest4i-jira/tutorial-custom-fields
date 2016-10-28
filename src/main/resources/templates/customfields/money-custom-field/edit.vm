@@ -1,1 +1,6 @@
-<h1>edit.vm</h1>
+#disable_html_escaping()
+#customControlHeader ($action $customField.id $customField.name $filedLayoutItem.required $displayParameters $auiparams)
+
+<input class="text" id="$customField.id" name="$customField.id" type="text" value="$textutils.htmlEncode($!value)"/>
+
+#customControlFooter ($action $customField.id $fieldLayoutItem.fieldDescription $displayParameters $auiparams)

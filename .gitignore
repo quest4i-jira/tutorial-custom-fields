@@ -1,6 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
 .idea/
-demoplugin.iml
+.iml
 
 # jira
 target/
+tutorial-jira-custom-field.iml

@@ -1,9 +1,9 @@
-package ut.com.example.plugins.tutorial.jira.jira.customfields;
+package ut.com.example.plugins.tutorial.jira.customfields;
 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import com.example.plugins.tutorial.jira.jira.customfields.MoneyCustomField;
+import com.example.plugins.tutorial.jira.customfields.MoneyCustomField;
 
 import static org.mockito.Mockito.*;
 
